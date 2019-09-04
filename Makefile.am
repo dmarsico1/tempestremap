@@ -118,7 +118,7 @@ CoarsenRectilinearData_SOURCES = src/CoarsenRectilinearData.cpp
 CalculateDiffNorms_SOURCES = src/CalculateDiffNorms.cpp
 AnalyzeMap_SOURCES = src/AnalyzeMap.cpp
 VerticalInterpolate_SOURCES = src/VerticalInterpolate.cpp
-RemapIterations_SOURCES = src/RemapIterations.cpp
+RemapIterations_SOURCES = src/RemapIterationsExe.cpp
 
 MeshToTxt_SOURCES = src/MeshToTxt.cpp
 ShpToMesh_SOURCES = src/ShpToMesh.cpp
@@ -135,7 +135,6 @@ bin_PROGRAMS = GenerateTestData \
 				GenerateTransposeMap CoarsenRectilinearData \
 				MeshToTxt ShpToMesh ConvertExodusToSCRIP ConvertSCRIPToExodus \
 				AnalyzeMap VerticalInterpolate RemapIterations
-
 
 # Utility target: build but don't run tests
 build-check:
